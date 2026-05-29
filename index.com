@@ -63,13 +63,13 @@ const createScene = function () {
     );
 
     BABYLON.SceneLoader.Append(
-        "",
-        "https://welspungroup-my.sharepoint.com/:u:/g/personal/wel_darpan_welspun_com/IQAl3vURakjaTaLxT04FyfgOAfnZqAQq-iu7hAJGHFeajY8?e=oAqxCZ",
-        scene,
-        function () {
-            console.log("Model loaded");
-        }
-    );
+    "",
+    "model.glb",
+    scene,
+    function () {
+        console.log("Model loaded");
+    }
+);
 
     return scene;
 };
